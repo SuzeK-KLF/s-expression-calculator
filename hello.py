@@ -45,7 +45,7 @@ class SExpression:
 
 
 def main():
-    if len(sys.argv) <=2:
+    if len(sys.argv) <=1:
         print("Please give enough info")
     else:
         print(SExpression().calculate(sys.argv[1]))
